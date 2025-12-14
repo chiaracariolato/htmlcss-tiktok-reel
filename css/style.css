@@ -34,7 +34,112 @@ video {
 
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
+	padding: 16px;
+	display: flex;
+	justify-content: space-between;
 }
+
+button {
+	font-family: 'TikTok Sans', sans-serif;
+	background-color: transparent;
+	border: 0;
+	padding: 4px;
+	color: white;
+}
+
+.underline {
+	width: 25px;
+	margin: 5px 12.5px;
+	border-bottom: white 2px solid;
+	position: absolute;
+	text-align: center;
+}
+
+header button {
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.notification {
+	position: relative;
+}
+
+.dot {
+	position: absolute;
+	right: -4px;
+	top: -2px;
+	color: red;
+	font-size: 8px;
+}
+
+.icon {
+	color: white;
+	font-size: 24px;
+}
+
+.std-button {
+	opacity: 48%;
+}
+
+/* Sidebar */
+.sidebar {
+	padding: 0 16px;
+	position: absolute;
+	right: 0;
+	top: 40%;
+
+	/* Inserisci qui sotto 
+	le tue regole, se necessario. */
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.sidebar button {
+	font-size: 14px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	gap: 8px;
+	text-shadow: 0px 2px rgba(255, 255, 255, 0.4);
+}
+
+.icon-button {
+	font-size: 32px;
+}
+
+.add-button {
+	position: relative;
+	padding: 0;
+}
+
+.add-button img {
+	width: 48px;
+	border: white 2px solid;
+	border-radius: 50%;
+}
+
+.add-button i {
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	z-index: 1;
+	bottom: -25%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: red;
+	color: white;
+	font-size: 12px;
+	border-radius: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 0px 1px rgba(255, 255, 255, 0.4);
+}
+
 
 /* Footer */
 
@@ -49,15 +154,47 @@ footer {
 	le tue regole, se necessario. */
 }
 
-/* Sidebar */
-.sidebar {
-	padding: 0 16px;
-	position: absolute;
-	right: 0;
-	top: 40%;
+.caption {
+	padding: 8px 180px 8px 8px;
+}
 
-	/* Inserisci qui sotto 
-	le tue regole, se necessario. */
+.caption h1 {
+	font-weight: bold;
+	margin: 0px 0px 8px 0px;
+	font-size: 14px;
+}
+
+.caption p {
+	display: inline;
+	font-size: small;
+}
+
+#more {
+	font-weight: bold;
+	display: inline;
+}
+
+.nav-bar {
+	background-color: black;
+	display: flex;
+	justify-content: space-between;
+}
+
+.nav-bar button {
+	display: flex;
+	flex-direction: column;
+	font-size: 10px;
+	width: 100%;
+	padding: 12px 0px;;
+}
+
+.bedge {
+	position: absolute;
+	background-color: red;
+	padding: 2px 6px;
+	border-radius: 30%;
+	right: 0px;
+	top: 0px;
 }
 
 /* ---------------------
